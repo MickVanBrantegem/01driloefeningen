@@ -5,5 +5,5 @@
  */
 
 var WelcomeMessage = 'Hallo';
-name = prompt('Hoe heet je?');
-console.log(WelcomeMessage + ' ' + name);
+yourName = prompt('Hoe heet je?');
+console.log(WelcomeMessage + ' ' + yourName);

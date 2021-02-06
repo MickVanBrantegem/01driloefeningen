@@ -9,6 +9,7 @@
 // const orderNumber = '14284-4859';
 
 /* Oplossing */
+'use strict';
 const orderNumber = '14284-4859';
 const indexOfSecondNumber = orderNumber.indexOf('-') + 1;
 // Je gebruikt beter substring() ipv substr() => MDN

@@ -6,19 +6,19 @@
  *  Het willekeurig getal ligt in het interval [40,50]
  */
 
- 
 /* Oplossing */
 // We gebruiken Math.random() in combinatie met Math.floor()
 // om willekeurige gehele getallen te genereren.
 // We genereren eerst een willekeurig getal tussen 0 en 30 en
 // tellen daarbij 20 op.
+'use strict';
 const randomNumber = Math.floor(Math.random() * 31) + 20;
 let interval;
 if (randomNumber < 30) {
-    interval = '[20,30[';
+  interval = '[20,30[';
 } else if (randomNumber < 40) {
-    interval = '[30,40[';
+  interval = '[30,40[';
 } else {
-    interval = '[40,50]';
+  interval = '[40,50]';
 }
 console.log(`Het willekeurig getal ligt in het interval ${interval}`);

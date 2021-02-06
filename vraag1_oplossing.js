@@ -9,12 +9,14 @@
 // console.log(WelcomeMessage + ' ' + name);
 
 /* Oplossing */
+// gebruik strict mode
+'use strict';
 // Gebruik 'const' en 'let' in plaats van 'var'.
 // Class names laten we beginnen met een hoofdletter,
 // maar namen van variabelen beginnen we met een kleine letter.
 const welcomeMessage = 'Hallo';
 // // Declareer een variabele altijd expliciet met const of let
 // // en sluit een const statement af met een puntkomma;
-const name = prompt('Hoe heet je?');
+const yourName = prompt('Hoe heet je?');
 // Gebruik template literals om de leesbaarheid te verhogen.
-console.log(`${welcomeMessage} ${name}`);
+console.log(`${welcomeMessage} ${yourName}`);
